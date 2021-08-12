@@ -1,0 +1,19 @@
+{
+  "name": "canonicalizer",
+  "version": "0.0.1",
+  "description": "Google Chrome extension to canonicalize URL in tue current tab",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/chrome": "^0.0.154",
+    "prettier": "^2.3.2",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack-cli": "^4.7.2"
+  }
+}

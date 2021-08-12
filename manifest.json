@@ -1,0 +1,33 @@
+{
+  "name": "URL canonicalizer",
+  "description": "canonicalize URL in the current tab",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_icon": {
+      "16": "/images/icons/disabled/16.png",
+      "32": "/images/icons/disabled/32.png",
+      "48": "/images/icons/disabled/48.png",
+      "128": "/images/icons/disabled/128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/icons/enabled/16.png",
+    "32": "/images/icons/enabled/32.png",
+    "48": "/images/icons/enabled/48.png",
+    "128": "/images/icons/enabled/128.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+C",
+        "mac": "MacCtrl+Shift+C"
+      }
+    }
+  }
+}
