@@ -4,7 +4,9 @@
   "description": "Google Chrome extension to canonicalize URL in tue current tab",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "prepack": "npm run build",
+    "pack": "bin/pack.sh"
   },
   "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
   "license": "MIT",
